@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Gaston&Co. — vini in edizione limitata da Suvereto, Toscana." />
+  <title>Vini | Gaston&Co.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>:root{ --serif: "Playfair Display", ui-serif, Georgia, "Times New Roman", Times, serif; }</style>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="nav">
+      <a class="brand" href="index.html" aria-label="Gaston&Co Home">
+        <svg width="28" height="28" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+          <path d="M10 34c6-10 18-18 34-18 7 0 12 2 16 6-6 2-12 4-16 8 4 0 8 1 12 4-6 4-14 7-24 7-11 0-18-3-22-7Z" fill="rgba(244,241,239,.9)"/>
+          <path d="M30 18c4-4 10-6 16-6 4 0 7 1 9 3-2 1-4 2-6 4 2 0 4 0 6 1-4 3-9 5-15 5-5 0-8-2-10-4Z" fill="rgba(184,155,79,.85)"/>
+        </svg>
+        <span class="name">GASTON&CO.</span>
+      </a>
+
+      <nav class="links" aria-label="Navigazione principale">
+        <a href="index.html" data-i18n data-it="Home" data-en="Home">Home</a>
+        <a href="vini.html" data-i18n data-it="Vini" data-en="Wines">Vini</a>
+        <a href="eventi.html" data-i18n data-it="Eventi" data-en="Events">Eventi</a>
+        <a href="contatti.html" data-i18n data-it="Contatti" data-en="Contacts">Contatti</a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener" data-i18n data-it="Instagram" data-en="Instagram">Instagram</a>
+        <div class="lang" aria-label="Lingua">
+          <button type="button" data-lang="it" aria-pressed="true">IT</button>
+          <span style="opacity:.45">|</span>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main class="section">
+  <div class="container">
+    <h2 data-i18n data-it="I nostri vini" data-en="Our wines">I nostri vini</h2>
+    <p data-i18n
+      data-it="Tre etichette, tre modi di intendere la costa toscana. Qui trovi vinificazione, profilo sensoriale e abbinamenti consigliati."
+      data-en="Three labels, three ways to interpret the Tuscan coast. Here you’ll find winemaking, tasting profile and suggested pairings.">
+      Tre etichette, tre modi di intendere la costa toscana. Qui trovi vinificazione, profilo sensoriale e abbinamenti consigliati.
+    </p>
+
+    <div class="grid" style="margin-top:16px">
+      <article class="card">
+        <div class="img" style="background-image:url('./assets/anacleto.png')"></div>
+        <div class="body">
+          <div class="title"><span>ANACLETO</span><span class="badge">Vermentino</span></div>
+          <p class="small" data-i18n
+            data-it="<strong>Uve:</strong> due cloni di Vermentino (Toscano: corpo e freschezza • Corso: aromaticità e fragranza).<br><strong>Vinificazione:</strong> raccolta e lavorazione nella prima settimana di settembre, pressatura soffice e fermentazione a temperatura controllata per proteggere gli aromi."
+            data-en="<strong>Grapes:</strong> two Vermentino clones (Tuscan: body & freshness • Corsican: aromatics & fragrance).<br><strong>Winemaking:</strong> harvested and processed in early September; gentle pressing and temperature-controlled fermentation to preserve aromas.">
+            <strong>Uve:</strong> due cloni di Vermentino (Toscano: corpo e freschezza • Corso: aromaticità e fragranza).<br><strong>Vinificazione:</strong> raccolta e lavorazione nella prima settimana di settembre, pressatura soffice e fermentazione a temperatura controllata per proteggere gli aromi.
+          </p>
+          <ul class="list">
+            <li data-i18n data-it="<strong>Naso:</strong> fiori bianchi (gelsomino, acacia) e agrumi (pompelmo, limone)" data-en="<strong>Nose:</strong> white flowers (jasmine, acacia) and citrus (grapefruit, lemon)"><strong>Naso:</strong> fiori bianchi (gelsomino, acacia) e agrumi (pompelmo, limone)</li>
+            <li data-i18n data-it="<strong>Bocca:</strong> fresca, sapida, “verticale” (acidità protagonista)" data-en="<strong>Palate:</strong> fresh, savory, “vertical” (acidity in focus)"><strong>Bocca:</strong> fresca, sapida, “verticale” (acidità protagonista)</li>
+            <li data-i18n data-it="<strong>Abbinamenti:</strong> primi di pesce (vongole, crostacei), antipasti/primi di verdure non amare, formaggi freschi o semi-stagionati" data-en="<strong>Pairings:</strong> seafood pasta (clams, shellfish), non-bitter vegetable dishes, fresh or semi-aged cheeses"><strong>Abbinamenti:</strong> primi di pesce (vongole, crostacei), antipasti/primi di verdure non amare, formaggi freschi o semi-stagionati</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="img" style="background-image:url('./assets/froufrou.png')"></div>
+        <div class="body">
+          <div class="title"><span>FROU FROU</span><span class="badge">Rosato • Sangiovese</span></div>
+          <p class="small" data-i18n
+            data-it="<strong>Uve:</strong> Sangiovese in purezza da raccolta anticipata (vigneti più a valle, terreni sabbiosi e sciolti).<br><strong>Vinificazione:</strong> lavorato “da bianco”: pressatura soffice e fermentazione sotto i 16°C; colore dalla sola spremitura iniziale (senza macerazione con le bucce)."
+            data-en="<strong>Grapes:</strong> 100% Sangiovese, early harvest (lower vineyards, sandy/loose soils).<br><strong>Winemaking:</strong> made like a white wine: gentle pressing and fermentation under 16°C; color from the first pressing only (no skin maceration).">
+            <strong>Uve:</strong> Sangiovese in purezza da raccolta anticipata (vigneti più a valle, terreni sabbiosi e sciolti).<br><strong>Vinificazione:</strong> lavorato “da bianco”: pressatura soffice e fermentazione sotto i 16°C; colore dalla sola spremitura iniziale (senza macerazione con le bucce).
+          </p>
+          <ul class="list">
+            <li data-i18n data-it="<strong>Naso:</strong> piccoli frutti rossi, rose, tocchi agrumati" data-en="<strong>Nose:</strong> red berries, rose petals, citrus touches"><strong>Naso:</strong> piccoli frutti rossi, rose, tocchi agrumati</li>
+            <li data-i18n data-it="<strong>Bocca:</strong> ingresso fresco e minerale, ampiezza e struttura più decisa; niente “tannino morbido” da rosato da salasso — qui comanda la freschezza" data-en="<strong>Palate:</strong> fresh, mineral entry with good breadth; not a saignée rosé — freshness leads the way"><strong>Bocca:</strong> ingresso fresco e minerale, ampiezza e struttura più decisa; niente “tannino morbido” da rosato da salasso — qui comanda la freschezza</li>
+            <li data-i18n data-it="<strong>Abbinamenti:</strong> salumi delicati, formaggi semi-stagionati/medi, antipasti di pesce con pomodoro (cacciucco/guazzetti), primi di pesce succulenti (ragù di polpo), secondi all’isolana" data-en="<strong>Pairings:</strong> delicate cured meats, semi-aged cheeses, tomato-based seafood starters (stews), rich seafood pasta (octopus ragù), island-style fish mains"><strong>Abbinamenti:</strong> salumi delicati, formaggi semi-stagionati/medi, antipasti di pesce con pomodoro (cacciucco/guazzetti), primi di pesce succulenti (ragù di polpo), secondi all’isolana</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="card" style="grid-column: span 12">
+        <div class="img" style="background-image:url('./assets/gastone.png'); height:320px"></div>
+        <div class="body">
+          <div class="title"><span>GASTONE</span><span class="badge">Cabernet Franc</span></div>
+          <p class="small" data-i18n
+            data-it="<strong>Vigneto:</strong> selezione dei migliori grappoli ai piedi della collina Montepitti. Suolo di medio impasto tra argilla e calestro: radici profonde, vigoria contenuta, rese basse.<br><strong>Vinificazione:</strong> raccolta manuale a fine settembre; diraspatura leggera; fermentazione in acciaio a 26–28°C per almeno 7 giorni con rimontaggi e follature quotidiane. Svinatura, decantazione in cemento, poi affinamento in barrique di rovere per almeno 12 mesi (con malolattica)."
+            data-en="<strong>Vineyard:</strong> best clusters selected at the foot of Montepitti hill. Clay & limestone-rich soils: deep roots, controlled vigor, low yields.<br><strong>Winemaking:</strong> hand-harvest late September; gentle destemming; stainless-steel fermentation at 26–28°C for at least 7 days with daily pump-overs and punch-downs. Racked, settled in concrete, then aged in oak barriques for at least 12 months (malolactic included).">
+            <strong>Vigneto:</strong> selezione dei migliori grappoli ai piedi della collina Montepitti. Suolo di medio impasto tra argilla e calestro: radici profonde, vigoria contenuta, rese basse.<br><strong>Vinificazione:</strong> raccolta manuale a fine settembre; diraspatura leggera; fermentazione in acciaio a 26–28°C per almeno 7 giorni con rimontaggi e follature quotidiane. Svinatura, decantazione in cemento, poi affinamento in barrique di rovere per almeno 12 mesi (con malolattica).
+          </p>
+          <div class="grid" style="gap:14px; margin-top:10px">
+            <div class="panel" style="grid-column: span 6">
+              <h3 style="margin:0 0 8px; font-family:var(--serif)" data-i18n data-it="Profilo" data-en="Profile">Profilo</h3>
+              <ul class="list">
+                <li data-i18n data-it="<strong>Naso:</strong> mora e ribes non maturi, spezie (liquirizia, cannella), note balsamiche e mentolate" data-en="<strong>Nose:</strong> blackberry & unripe currant, spice (licorice, cinnamon), balsamic & mint notes"><strong>Naso:</strong> mora e ribes non maturi, spezie (liquirizia, cannella), note balsamiche e mentolate</li>
+                <li data-i18n data-it="<strong>Evoluzione:</strong> dopo l’estate emergono toni più maturi e complessi" data-en="<strong>Evolution:</strong> after summer, riper and more complex tones emerge"><strong>Evoluzione:</strong> dopo l’estate emergono toni più maturi e complessi</li>
+                <li data-i18n data-it="<strong>Bocca:</strong> ampia e sapida, tannino evoluto, volume e persistenza; finale elegante e “dolce”" data-en="<strong>Palate:</strong> broad and savory, evolved tannins, volume and persistence; elegant, smooth finish"><strong>Bocca:</strong> ampia e sapida, tannino evoluto, volume e persistenza; finale elegante e “dolce”</li>
+              </ul>
+            </div>
+            <div class="panel" style="grid-column: span 6">
+              <h3 style="margin:0 0 8px; font-family:var(--serif)" data-i18n data-it="Abbinamenti" data-en="Pairings">Abbinamenti</h3>
+              <ul class="list">
+                <li data-i18n data-it="Formaggi molto stagionati, salumi stagionati e speziati" data-en="Very aged cheeses, aged & spiced cured meats">Formaggi molto stagionati, salumi stagionati e speziati</li>
+                <li data-i18n data-it="Primi di cacciagione (cinghiale, capriolo)" data-en="Game ragù & pasta (wild boar, roe deer)">Primi di cacciagione (cinghiale, capriolo)</li>
+                <li data-i18n data-it="Fiorentina, filetto al pepe, brasati, lunghe cotture (peposo, guancia, stracotto)" data-en="Steaks, pepper filet, braises and long-cooked meats">Fiorentina, filetto al pepe, brasati, lunghe cotture (peposo, guancia, stracotto)</li>
+              </ul>
+            </div>
+          </div>
+
+          <div style="margin-top:14px" class="notice" data-i18n
+            data-it="<strong>Nota di stile:</strong> Gastone non fa compromessi. Se vuoi un rosso che “entra” con eleganza e resta a lungo, lui è già seduto al tavolo."
+            data-en="<strong>Style note:</strong> Gastone doesn’t do compromises. If you want a red that arrives with elegance and lingers, he’s already seated at the table.">
+            <strong>Nota di stile:</strong> Gastone non fa compromessi. Se vuoi un rosso che “entra” con eleganza e resta a lungo, lui è già seduto al tavolo.
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <div style="display:flex; justify-content:space-between; gap:14px; flex-wrap:wrap; align-items:center">
+      <div>
+        <div style="font-family:var(--serif); letter-spacing:.18em; font-size:14px; opacity:.95">GASTON&CO.</div>
+        <div class="small" data-i18n
+          data-it="Suvereto, Toscana • Selezioni limitate per ristorazione ed enoteche"
+          data-en="Suvereto, Tuscany • Limited selections for restaurants and wine shops">
+          Suvereto, Toscana • Selezioni limitate per ristorazione ed enoteche
+        </div>
+      </div>
+      <div class="small">© <span id="y"></span> Gaston&Co.</div>
+    </div>
+  </div>
+</footer>
+
+<a class="fab" href="https://wa.me/" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg viewBox="0 0 32 32" fill="none" aria-hidden="true">
+    <path d="M26.7 5.3A13.5 13.5 0 0 0 4.1 24.8L3 29l4.3-1.1A13.5 13.5 0 0 0 29 16.1c0-3.6-1.4-7-3.3-10.8Z" stroke="rgba(244,241,239,.86)" stroke-width="1.4"/>
+    <path d="M13.2 10.7c-.3-.7-.6-.7-.8-.7h-.7c-.2 0-.6.1-.9.5-.3.4-1.2 1.1-1.2 2.7s1.2 3.2 1.4 3.4c.2.2 2.3 3.6 5.7 4.9 2.8 1.1 3.4.9 4 .8.6-.1 1.9-.8 2.2-1.6.3-.8.3-1.4.2-1.6-.1-.2-.3-.3-.7-.5l-2.2-1.1c-.2-.1-.4-.2-.6.2-.2.4-.8 1.1-1 1.3-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.7-1.7-1-.9-1.7-2-1.9-2.4-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.5.1-.2 0-.4 0-.6l-1-2.4Z" fill="rgba(244,241,239,.86)" opacity=".9"/>
+  </svg>
+</a>
+
+<script src="./app.js"></script>
+<script>document.getElementById("y").textContent=new Date().getFullYear()</script>
+</body>
+</html>

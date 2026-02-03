@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Gaston&Co. — vini in edizione limitata da Suvereto, Toscana." />
+  <title>Contatti | Gaston&Co.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>:root{ --serif: "Playfair Display", ui-serif, Georgia, "Times New Roman", Times, serif; }</style>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="nav">
+      <a class="brand" href="index.html" aria-label="Gaston&Co Home">
+        <svg width="28" height="28" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+          <path d="M10 34c6-10 18-18 34-18 7 0 12 2 16 6-6 2-12 4-16 8 4 0 8 1 12 4-6 4-14 7-24 7-11 0-18-3-22-7Z" fill="rgba(244,241,239,.9)"/>
+          <path d="M30 18c4-4 10-6 16-6 4 0 7 1 9 3-2 1-4 2-6 4 2 0 4 0 6 1-4 3-9 5-15 5-5 0-8-2-10-4Z" fill="rgba(184,155,79,.85)"/>
+        </svg>
+        <span class="name">GASTON&CO.</span>
+      </a>
+
+      <nav class="links" aria-label="Navigazione principale">
+        <a href="index.html" data-i18n data-it="Home" data-en="Home">Home</a>
+        <a href="vini.html" data-i18n data-it="Vini" data-en="Wines">Vini</a>
+        <a href="eventi.html" data-i18n data-it="Eventi" data-en="Events">Eventi</a>
+        <a href="contatti.html" data-i18n data-it="Contatti" data-en="Contacts">Contatti</a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener" data-i18n data-it="Instagram" data-en="Instagram">Instagram</a>
+        <div class="lang" aria-label="Lingua">
+          <button type="button" data-lang="it" aria-pressed="true">IT</button>
+          <span style="opacity:.45">|</span>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main class="section">
+  <div class="container">
+    <h2 data-i18n data-it="Contatti" data-en="Contacts">Contatti</h2>
+    <p data-i18n
+      data-it="Per degustazioni, listino e collaborazioni: scrivici. Rispondiamo veloce (e con bottiglie pronte)."
+      data-en="For tastings, price list and collaborations: message us. We reply fast (with bottles ready).">
+      Per degustazioni, listino e collaborazioni: scrivici. Rispondiamo veloce (e con bottiglie pronte).
+    </p>
+
+    <div class="grid" style="margin-top:16px">
+      <div class="panel" style="grid-column: span 6">
+        <h3 style="margin:0 0 10px; font-family:var(--serif)" data-i18n data-it="Scrivici" data-en="Write to us">Scrivici</h3>
+
+        <form id="contactForm">
+          <div class="field">
+            <label for="name" data-i18n data-it="Nome" data-en="Name">Nome</label>
+            <input id="name" name="name" placeholder="Il tuo nome" required />
+          </div>
+
+          <div class="field">
+            <label for="email" data-i18n data-it="Email" data-en="Email">Email</label>
+            <input id="email" name="email" type="email" placeholder="nome@email.it" required />
+          </div>
+
+          <div class="field">
+            <label for="message" data-i18n data-it="Messaggio" data-en="Message">Messaggio</label>
+            <textarea id="message" name="message" placeholder="Ciao Gaston&Co., vorrei una degustazione / listino / informazioni..." required></textarea>
+          </div>
+
+          <button class="btn gold" type="submit" data-i18n data-it="Invia" data-en="Send">Invia</button>
+          <div class="small" style="margin-top:10px" data-i18n
+            data-it="Il form usa il tuo client email (mailto). Se preferisci: scrivici su Instagram o WhatsApp."
+            data-en="The form uses your email client (mailto). Alternatively: DM us on Instagram or WhatsApp.">
+            Il form usa il tuo client email (mailto). Se preferisci: scrivici su Instagram o WhatsApp.
+          </div>
+        </form>
+      </div>
+
+      <div class="panel" style="grid-column: span 6">
+        <h3 style="margin:0 0 10px; font-family:var(--serif)" data-i18n data-it="Info" data-en="Info">Info</h3>
+
+        <div class="small">
+          <div><strong data-i18n data-it="Zona" data-en="Area">Zona</strong>: Suvereto (LI), Toscana</div>
+          <div style="margin-top:8px"><strong>Email</strong>: <a href="mailto:info@gastonco.it">info@gastonco.it</a> <span style="opacity:.6">(modifica questa email)</span></div>
+          <div style="margin-top:8px"><strong>Telefono</strong>: <a href="tel:+390000000000">+39 000 000 0000</a> <span style="opacity:.6">(modifica questo numero)</span></div>
+        </div>
+
+        <hr class="sep" />
+
+        <div class="cta-row">
+          <a class="btn" href="https://www.instagram.com/" target="_blank" rel="noopener" data-i18n data-it="Vai su Instagram" data-en="Open Instagram">Vai su Instagram</a>
+          <a class="btn" href="https://wa.me/" target="_blank" rel="noopener" data-i18n data-it="Scrivici su WhatsApp" data-en="WhatsApp us">Scrivici su WhatsApp</a>
+        </div>
+
+        <hr class="sep" />
+
+        <div class="notice" data-i18n
+          data-it="<strong>Per ristoratori:</strong> possiamo fissare un appuntamento e portare una degustazione dei 3 vini con abbinamenti consigliati."
+          data-en="<strong>For restaurants:</strong> we can schedule a visit and bring a tasting of the 3 wines with suggested pairings.">
+          <strong>Per ristoratori:</strong> possiamo fissare un appuntamento e portare una degustazione dei 3 vini con abbinamenti consigliati.
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<script>
+  document.getElementById("contactForm").addEventListener("submit", function(e){
+    e.preventDefault();
+    const name = encodeURIComponent(document.getElementById("name").value.trim());
+    const email = encodeURIComponent(document.getElementById("email").value.trim());
+    const message = encodeURIComponent(document.getElementById("message").value.trim());
+    const subject = encodeURIComponent("Contatto dal sito Gaston&Co. — " + (name || "Nuovo messaggio"));
+    const body = encodeURIComponent("Nome: " + (name||"") + "\nEmail: " + (email||"") + "\n\n" + message);
+    window.location.href = "mailto:info@gastonco.it?subject=" + subject + "&body=" + body;
+  });
+</script>
+
+<footer>
+  <div class="container">
+    <div style="display:flex; justify-content:space-between; gap:14px; flex-wrap:wrap; align-items:center">
+      <div>
+        <div style="font-family:var(--serif); letter-spacing:.18em; font-size:14px; opacity:.95">GASTON&CO.</div>
+        <div class="small" data-i18n
+          data-it="Suvereto, Toscana • Selezioni limitate per ristorazione ed enoteche"
+          data-en="Suvereto, Tuscany • Limited selections for restaurants and wine shops">
+          Suvereto, Toscana • Selezioni limitate per ristorazione ed enoteche
+        </div>
+      </div>
+      <div class="small">© <span id="y"></span> Gaston&Co.</div>
+    </div>
+  </div>
+</footer>
+
+<a class="fab" href="https://wa.me/" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg viewBox="0 0 32 32" fill="none" aria-hidden="true">
+    <path d="M26.7 5.3A13.5 13.5 0 0 0 4.1 24.8L3 29l4.3-1.1A13.5 13.5 0 0 0 29 16.1c0-3.6-1.4-7-3.3-10.8Z" stroke="rgba(244,241,239,.86)" stroke-width="1.4"/>
+    <path d="M13.2 10.7c-.3-.7-.6-.7-.8-.7h-.7c-.2 0-.6.1-.9.5-.3.4-1.2 1.1-1.2 2.7s1.2 3.2 1.4 3.4c.2.2 2.3 3.6 5.7 4.9 2.8 1.1 3.4.9 4 .8.6-.1 1.9-.8 2.2-1.6.3-.8.3-1.4.2-1.6-.1-.2-.3-.3-.7-.5l-2.2-1.1c-.2-.1-.4-.2-.6.2-.2.4-.8 1.1-1 1.3-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.7-1.7-1-.9-1.7-2-1.9-2.4-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.5.1-.2 0-.4 0-.6l-1-2.4Z" fill="rgba(244,241,239,.86)" opacity=".9"/>
+  </svg>
+</a>
+
+<script src="./app.js"></script>
+<script>document.getElementById("y").textContent=new Date().getFullYear()</script>
+</body>
+</html>
